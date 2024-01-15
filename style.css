@@ -96,3 +96,48 @@ nav > ul li, a{
     font-weight: 600;
     text-transform: uppercase;
  }
+
+ .button:hover{
+    border: 1px solid #FF8A1D;
+    background-color: transparent;
+    color: #FF8A1D;
+    transition: all .5s;
+ }
+ /* <=========banner card style =====================> */
+
+ .banner_card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-top: -7rem;
+   
+ }
+
+ .single_card {
+background-color: #fff;
+padding: 4rem 8rem;
+text-transform: uppercase;
+color: rgba(128, 128, 128, 0.866);
+font-weight: 400;
+border-radius: .2rem;
+box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.075);
+ } 
+ 
+ .single_card h3{
+ margin-top: 3rem;
+     }
+
+.fa-screwdriver,.fa-database,.fa-mountain-city{
+        font-size: 3rem;
+        color: #FF8A1D;
+     }
+
+     .fa-database {
+    color: #fff;
+     }
+
+     .center_card {
+        background-color: #FF8A1D;
+        color: #fff;
+     }
